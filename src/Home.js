@@ -11,6 +11,7 @@ const Home = () => {
     const instagram = 'https://www.instagram.com/akhix_';
     const github = 'https://github.com/akhilchandran030';
     const whatsappUrl = 'https://wa/+918137823254';
+    const resume = "https://drive.google.com/file/d/1ieVQeTFXFJjgC-G_jJ4obEdhe71YQr7r/view?usp=sharing";
     return (
         <>
             <div className="maindiv" id='home'>
@@ -41,7 +42,7 @@ const Home = () => {
                         </p>
                     </div>
                     <div className='cv_button'>
-                        <button className='download_cv'><a className='download_cv' href="/files/Akhil_Chandran_Resume.pdf" target='_blank' download>Resume</a></button>
+                        <button className='download_cv'><a className='download_cv' href={'resume'} download="My_Resume.pdf" target='_blank'>Resume</a></button>
                     </div>
                 </div >
             </div>
