@@ -42,7 +42,7 @@ const Home = () => {
                         </p>
                     </div>
                     <div className='cv_button'>
-                        <button className='download_cv'><a className='download_cv' href={'resume'} download="My_Resume.pdf" target='_blank'>Resume</a></button>
+                        <button className='download_cv'><a className='download_cv' href={resume} download="My_Resume.pdf" target='_blank'>Resume</a></button>
                     </div>
                 </div >
             </div>
