@@ -1,0 +1,204 @@
+.about_top {
+    position: relative;
+    width: 99%;
+    height: 10px;
+    top: 650px;
+    color: rgb(254, 252, 252);
+}
+
+.empty {
+    opacity: 0;
+}
+
+.maindiv_about {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    margin: 3rem 0;
+    border: 5px solid rgb(0, 97, 224);
+    animation: borderColorChange 3s infinite;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 8px rgb(69, 21, 228);
+}
+
+@keyframes borderColorChange {
+    0% {
+        border-color: blue;
+        box-shadow: 2px 2px 8px rgb(61, 4, 251);
+    }
+
+    20% {
+        border-color: rgb(46, 251, 5);
+        box-shadow: 2px 2px 8pxb rgb(245, 245, 3);
+    }
+
+    40% {
+        border-color: red;
+        box-shadow: 2px 2px 8px red;
+    }
+
+    60% {
+        border-color: cyan;
+        box-shadow: 2px 2px 8px cyan;
+    }
+
+    80% {
+        border-color: rgb(7, 7, 7);
+        box-shadow: 2px 2px 8px rgb(5, 5, 5);
+    }
+
+    100% {
+        border-color: rgb(240, 0, 176);
+        box-shadow: 2px 2px 8px rgb(240, 0, 176);
+    }
+
+}
+
+.left_boy {
+    position: relative;
+    width: 40%;
+    top: 20%;
+    height: 70%;
+    left: 5%;
+    opacity: 100%;
+}
+
+.whoami {
+    position: relative;
+    left: 45%;
+    width: 40%;
+    color: rgb(12, 12, 12);
+    text-shadow: 5px 5px 3px rgb(244, 241, 241);
+    font-family: cursive;
+}
+
+.right_about {
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 10%;
+    height: auto;
+    color: rgb(8, 8, 8);
+    overflow: hidden;
+}
+
+.whatsapp_logo {
+    position: absolute;
+    top: 0%;
+    left: 85%;
+    width: 50px;
+    height: 50px;
+}
+
+.message_div {
+    position: absolute;
+    top: 0%;
+    width: 340px;
+    height: 99%;
+    display: flex;
+}
+
+.close {
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    left: 340px;
+    background-color: red;
+    height: 30px;
+    border: 2px solid black;
+}
+
+@media(max-width:1024px) {
+    .paragraph {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:768px) {
+    .maindiv_about {
+        position: relative;
+        width: 940px;
+        top: 0px;
+        height: 815px;
+        margin: 3rem 0;
+        border: 5px solid rgb(0, 97, 224);
+        animation: borderColorChange 3s infinite;
+        border-radius: 20px;
+        color: white;
+        box-shadow: 2px 2px 8px rgb(69, 21, 228);
+    }
+}
+
+@media(max-width:1500px) {
+    .maindiv_about {
+        position: relative;
+        width: 1435px;
+        top: 0px;
+        height: 815px;
+        margin: 3rem 0;
+        border: 5px solid rgb(0, 97, 224);
+        animation: borderColorChange 3s infinite;
+        border-radius: 20px;
+        color: white;
+        box-shadow: 2px 2px 8px rgb(69, 21, 228);
+    }
+}
+
+@media(max-width:427px) {
+    .about_top {
+        position: relative;
+        width: 99%;
+        height: 10px;
+        top: 1250px;
+        color: rgb(254, 252, 252);
+    }
+    .maindiv_about {
+        position: relative;
+        width: 1400px;
+        height: 2500px;
+        top: 800px;
+        margin: 3rem 0;
+        border: 5px solid rgb(0, 97, 224);
+        animation: borderColorChange 3s infinite;
+        border-radius: 20px;
+        color: white;
+        box-shadow: 2px 2px 8px rgb(69, 21, 228);
+    }
+    .left_boy {
+        position: relative;
+        width: 40%;
+        top: 20%;
+        height: 50%;
+        left: 1%;
+        opacity: 100%;
+    }
+    .whoami {
+        position: relative;
+        left: 35%;
+        width: 40%;
+        color: rgb(12, 12, 12);
+        text-shadow: 5px 5px 3px rgb(244, 241, 241);
+        font-family: cursive;
+    }
+    .paragraph {
+        font-size: 40px;
+    }
+    .message_div {
+        position: absolute;
+        top: 0%;
+        left: 2px;
+        width: 550px;
+        height: 1250px;
+    }
+    
+    .close {
+        cursor: pointer;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        background-color: red;
+        height: 70px;
+        border: 2px solid black;
+    }
+}

@@ -1,0 +1,44 @@
+.contact {
+    position: absolute;
+    top: 4100px;
+    width: 99.8%;
+    height: 200px;
+    background-color: rgb(7, 7, 7);
+    color: rgb(250, 248, 248);
+}
+
+.cont_details {
+    position: relative;
+    top: 30px;
+    width: 90%;
+    left: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.head_cont {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media(max-width:1024px) {
+    .contact {
+        position: absolute;
+        top: 4100px;
+        width: 1440px;
+        height: 200px;
+        background-color: rgb(7, 7, 7);
+        color: rgb(250, 248, 248);
+    }
+}
+@media(max-width:427px){
+    .contact {
+        position: absolute;
+        top: 8300px;
+        width: 1440px;
+        height: 200px;
+        background-color: rgb(7, 7, 7);
+        color: rgb(250, 248, 248);
+    }
+}

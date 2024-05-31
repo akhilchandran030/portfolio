@@ -1,0 +1,382 @@
+.maindiv {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+.fake {
+    opacity: 0;
+}
+
+.photo-container {
+    left: 10%;
+    top: 25%;
+    position: relative;
+    border: 2px solid orange;
+    box-shadow: 8px 8px 9px black;
+    width: 20%;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: slide 2s ease forwards;
+}
+
+
+.icons {
+    position: relative;
+    top: 80%;
+    left: 14%;
+    width: 150px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: auto auto auto auto;
+    animation: paraslide 2s ease forwards;
+}
+
+.linkedin {
+    width: 75px;
+    height: 50px;
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+}
+
+.github {
+    width: 50px;
+    height: 47px;
+    margin-left: 12px;
+}
+
+.whatsapp {
+    width: 50px;
+    height: 48px;
+    margin-left: 10px;
+}
+
+
+img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(20%);
+    }
+}
+
+.para {
+    position: absolute;
+    left: 50%;
+    top: 27%;
+    animation: paraslide 2s ease forwards;
+}
+
+@keyframes paraslide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: xx-large;
+
+}
+
+.fake {
+    opacity: 0;
+}
+
+p {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: normal;
+    font-style: italic;
+}
+
+.cv_button {
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    right: 0%;
+    animation: paraslide 2s ease forwards;
+}
+
+.download_cv {
+    position: relative;
+    color: white;
+    background-color: crimson;
+    text-decoration: none;
+}
+
+
+
+.cv_button :hover {
+    color: yellow;
+    background-color: black;
+}
+
+@media(max-width:2560px) {
+    .icons {
+        position: relative;
+        top: 15px;
+        left: 15%;
+        width: 150px;
+        display: grid;
+        gap: 70px;
+        grid-template-columns: auto auto auto auto;
+        animation: paraslide 2s ease forwards;
+    }
+}
+@media(max-width:768px){
+    .download_cv {
+        position: relative;
+        width: 2050px;
+        color: white;
+        background-color: crimson;
+        text-decoration: none;
+    }
+}
+@media(max-width:2000px) {
+    .icons {
+        position: relative;
+        top: 15px;
+        left: 15%;
+        width: 150px;
+        display: grid;
+        gap: 40px;
+        grid-template-columns: auto auto auto auto;
+        animation: paraslide 2s ease forwards;
+    }
+}
+
+@media(max-width:1600px) {
+    .icons {
+        position: relative;
+        top: 15px;
+        left: 15%;
+        width: 150px;
+        display: grid;
+        gap: 24px;
+        grid-template-columns: auto auto auto auto;
+        animation: paraslide 2s ease forwards;
+    }
+}
+
+@media(max-width:1024px) {
+    .icons {
+        position: relative;
+        top: 15px;
+        left: 7%;
+        width: 150px;
+        display: grid;
+        gap: 40px;
+        grid-template-columns: auto auto auto auto;
+        animation: paraslide 2s ease forwards;
+    }
+
+    .cv_button {
+        position: absolute;
+        top: 85%;
+        left: 11%;
+        animation: paraslide 2s ease forwards;
+    }
+
+    .download_cv {
+        position: relative;
+        width: 200px;
+        color: white;
+        background-color: crimson;
+        text-decoration: none;
+    }
+
+    .para {
+        position: absolute;
+        left: 60%;
+        top: 27%;
+        width: 750px;
+        font-size: 20px;
+        animation: paraslide 2s ease forwards;
+    }
+
+    p {
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-variant: normal;
+        font-style: italic;
+    }
+
+}
+
+@media(max-width:900px) {
+    .icons {
+        position: relative;
+        top: 15px;
+        left: 7%;
+        width: 150px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto auto auto auto;
+        animation: paraslide 2s ease forwards;
+    }
+}
+
+@media(max-width:1440px) {
+    .cv_button {
+        position: absolute;
+        top: 85%;
+        left: 12%;
+        right: 0%;
+        animation: paraslide 2s ease forwards;
+    }
+}
+
+@media(max-width:770px) {
+    .cv_button {
+        position: absolute;
+        top: 85%;
+        left: 52%;
+        right: 0%;
+        animation: paraslide 2s ease forwards;
+    }
+}
+
+@media(max-width:550px) {
+    .photo-container {
+        left: 30%;
+        top: 25%;
+        position: relative;
+        border: 2px solid orange;
+        box-shadow: 8px 8px 9px black;
+        width: 50%;
+        height: 350px;
+        border-radius: 50%;
+        overflow: hidden;
+        animation: slide 2s ease forwards;
+    }
+
+    .icons {
+        position: relative;
+        top: 80%;
+        left: 30%;
+        width: 150px;
+        display: grid;
+        gap: 50px;
+        grid-template-columns: auto auto auto auto;
+        animation: paraslide 2s ease forwards;
+    }
+
+    .para {
+        position: absolute;
+        left: 600px;
+        top: 27%;
+        animation: paraslide 2s ease forwards;
+    }
+
+    .cv_button {
+        position: absolute;
+        top: 85%;
+        left: 95%;
+        right: 0%;
+        animation: paraslide 2s ease forwards;
+    }
+}
+
+@media(max-width:426px) {
+
+    .photo-container {
+        left: 170px;
+        top: 35%;
+        position: relative;
+        border: 2px solid orange;
+        box-shadow: 8px 8px 9px black;
+        width: 700px;
+        height: 650px;
+        border-radius: 50%;
+        overflow: hidden;
+        animation: slide 2s ease forwards;
+    }
+
+    .icons {
+        position: relative;
+        top: 50px;
+        left: 350px;
+        width: 150px;
+        display: grid;
+        gap: 100px;
+        grid-template-columns: auto auto auto auto;
+        animation: paraslide 2s ease forwards;
+    }
+
+    .linkedin {
+        width: 105px;
+        height: 80px;
+    }
+
+    .instagram {
+        width: 70px;
+        height: 70px;
+        margin-top: 9px;
+    }
+
+    .github {
+        width: 80px;
+        height: 77px;
+        margin-left: 12px;
+    }
+
+    .whatsapp {
+        width: 80px;
+        height: 78px;
+        margin-left: 10px;
+    }
+
+    .para {
+        position: absolute;
+        left: 550px;
+        top: 1000px;
+        font-size: 40px;
+        animation: paraslide 2s ease forwards;
+    }
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: oblique;
+        font-size: 70px;
+    
+    }
+    p {
+        font-size: 50px;
+        font-variant: normal;
+        font-style: italic;
+    }
+    .cv_button {
+        position: absolute;
+        top: 1750px;
+        left: 500px;
+        right: 0%;
+        animation: paraslide 2s ease forwards;
+    }
+    .download_cv {
+        position: relative;
+        width: 300px;
+        color: white;
+        background-color: crimson;
+        text-decoration: none;
+    }
+}
