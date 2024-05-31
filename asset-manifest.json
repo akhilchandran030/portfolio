@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a52dbf29.css",
+    "main.js": "/portfolio/static/js/main.56abee58.js",
+    "static/js/453.ed3810f9.chunk.js": "/portfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/skills.png": "/portfolio/static/media/skills.a4dee98553d6d1886f7c.png",
+    "static/media/Message.jpg": "/portfolio/static/media/Message.4c5b4643c647a7a817d3.jpg",
+    "static/media/boy.png": "/portfolio/static/media/boy.2b90ae9ed6c0b4ea130a.png",
+    "static/media/React.png": "/portfolio/static/media/React.b1df60f95762807c248b.png",
+    "static/media/Bootstrap.png": "/portfolio/static/media/Bootstrap.b46a96128ecb99cf7ac6.png",
+    "static/media/hospital.png": "/portfolio/static/media/hospital.57c51b7da7b66e8ebeea.png",
+    "static/media/php.png": "/portfolio/static/media/php.78c5b92faf02167377d0.png",
+    "static/media/Css.png": "/portfolio/static/media/Css.4ca44a7b4794d85dd409.png",
+    "static/media/html.png": "/portfolio/static/media/html.a751dd219ca53ce62fa3.png",
+    "static/media/mySQL.png": "/portfolio/static/media/mySQL.f59b0280fb58b4655e95.png",
+    "static/media/spring.png": "/portfolio/static/media/spring.3c88db9497d214053ee3.png",
+    "static/media/training.jpg": "/portfolio/static/media/training.af143e290ab2b6cd3d9d.jpg",
+    "static/media/travel.jpg": "/portfolio/static/media/travel.a2d5631bedd8d0bfc9b8.jpg",
+    "static/media/Instagram.png": "/portfolio/static/media/Instagram.b9de3c80e311e9f50990.png",
+    "static/media/whatsapp.png": "/portfolio/static/media/whatsapp.041fea8d97cb6231fa77.png",
+    "static/media/Linkedin.png": "/portfolio/static/media/Linkedin.ccebaf544b5bc0cad6fe.png",
+    "static/media/propic.jpeg": "/portfolio/static/media/propic.1cf2b5f580512773dd4b.jpeg",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.ced650fa261a7286fc31.png",
+    "static/media/java.png": "/portfolio/static/media/java.b5abb5cf91bcc77649fd.png",
+    "static/media/Github.png": "/portfolio/static/media/Github.6f2de9dd2f5f93500389.png",
+    "index.html": "/portfolio/index.html",
+    "main.a52dbf29.css.map": "/portfolio/static/css/main.a52dbf29.css.map",
+    "main.56abee58.js.map": "/portfolio/static/js/main.56abee58.js.map",
+    "453.ed3810f9.chunk.js.map": "/portfolio/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a52dbf29.css",
+    "static/js/main.56abee58.js"
+  ]
+}
