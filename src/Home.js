@@ -11,7 +11,7 @@ const Home = () => {
     const instagram = 'https://www.instagram.com/akhix_';
     const github = 'https://github.com/akhilchandran030';
     const whatsappUrl = 'https://wa/+918137823254';
-    const resume = "https://drive.google.com/file/d/1ieVQeTFXFJjgC-G_jJ4obEdhe71YQr7r/view?usp=sharing";
+    const resume = "https://drive.google.com/file/d/1kN1qIDbzRjDdA1AGmR_Kvb9Bb1T-0txV/view?usp=drive_link";
     return (
         <>
             <div className="maindiv" id='home'>

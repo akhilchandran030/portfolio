@@ -30,13 +30,12 @@ function About() {
                             )
                             }
                         </h1>
-                        <p className='paragraph'> I'm Akhil Chandran, a recent graduate with a <b>BSc in Computer Science</b> from Manonmaniam Sundaranar University. My journey into the world of technology has been enriched by my passion for problem-solving and my dedication to mastering various programming languages and tools.<br /><br />
+                        <p className='paragraph'>
+  Hi, my name is Akhil Chandran, and I am currently working as an <b>Associate Software Engineer at zDistanceLab</b>, Trivandrum. In my role, I work on various software development projects using <b>Java, Spring Boot, MySQL, and C#</b>, contributing to full-stack applications and interactive modules. I have completed projects such as a <b>Hospital Management System</b> and a <b>Training Institute Website</b>, applying both frontend and backend development skills to deliver effective solutions.<br /><br />
 
-                            I honed my skills in <b>Java Full Stack Development</b> through rigorous training at Scope India Software Training Institute, where I delved into HTML, CSS, JavaScript, React, MySQL, Java, and Spring Boot. During my educational journey, I completed impactful projects like designing a <b>Travel Agency website</b> and developing a <b>Training Institute Website using Spring Boot</b>.<br /><br />
-
-                            To complement my practical experience, I pursued <b>certifications in Object-Oriented Programming in Java and Frontend Development from GreatLearning</b>, solidifying my knowledge and expertise in these domains. Additionally, my training has equipped me with valuable communication skills, essential for collaborating effectively in team environments.<br /><br />
-
-                            Now, armed with a diverse skill set and a thirst for new challenges, I am eager to embark on my professional journey. I am actively seeking entry-level opportunities where I can apply my skills, contribute meaningfully, and continue to grow as a developer and a problem solver.</p>
+  I hold a <b>B.Sc. in Computer Science</b> from Malankara Catholic College, Kanyakumari, and I am currently pursuing my <b>MCA from IGNOU</b>. I also completed <b>Java Full Stack Development training at Scope India</b>, working extensively with Java, Spring Boot, MySQL, HTML, CSS, and JavaScript. Additionally, I have earned certifications in <b>Java Full Stack Development with Spring Boot</b>, which have strengthened my technical expertise and problem-solving abilities. With this blend of education and professional experience, I am eager to contribute meaningfully in software development roles and continue growing as a developer.
+</p>
+                            
                     </div>
                 </div>
             </div>
