@@ -7,7 +7,7 @@ import Github from './images/Github.png';
 import Whatsapp from './images/whatsapp.png';
 
 const Home = () => {
-    const linkedIn = 'https://www.linkedin.com/in/akhilchandrancs';
+    const linkedIn = 'https://www.linkedin.com/in/akhil-chandran-cs';
     const instagram = 'https://www.instagram.com/akhix_';
     const github = 'https://github.com/akhilchandran030';
     const whatsappUrl = 'https://wa/+918137823254';
@@ -37,8 +37,10 @@ const Home = () => {
                     <div className='para'>
                         <h1>Hello</h1>
                         <h1>I'm Akhil Chandran</h1>
-                        <h2>Full Stack Java Developer</h2>
-                        <p>Welcome to my portfolio home page,showcasing the work of a dedicated Java Full Stack Developer.<br />
+                        <h2>Full Stack Software Engineer</h2>
+                        <p>1+ year of experience building production-ready web applications and backend systems across multiple stacks.
+
+                            Java & Spring Boot · React · Node.js · Python · AWS (Serverless)<br />
                         </p>
                     </div>
                     <div className='cv_button'>
