@@ -1,36 +1,29 @@
 header {
-    /* border: 1px solid rgb(13, 224, 161); */
-    height: 10%;
-    width: 100%;
-    top: 0%;
-    background-color: black;
     position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
     z-index: 1;
-
+}
+.tophead {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
 }
 
 button {
-    background-color: black;
-    margin-top: 1%;
-    top: 5%;
-    font-size: large;
-    font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 20px;
     border-radius: 10px;
-    position: relative;
-    left: 50%;
-    right: 10%;
-    margin-left: 3%;
-    text-decoration: none;
+    background-color: black;
+    font-size: 16px;
 }
 
 a {
-    text-decoration: none;
     color: aliceblue;
-}
-
-a:hover {
     text-decoration: none;
+}
+a:hover {
     color: orange;
 }
 
@@ -39,7 +32,7 @@ a:hover {
     header {
         border: 1px solid rgb(13, 224, 161);
         height: 80px;
-        width: 1447px;
+        width: 100%;
         top: 0%;
         background-color: black;
         position: fixed;
@@ -82,10 +75,11 @@ a:hover {
         height: 50px;
         width: 120px;
     }
+
     header {
         border: 1px solid rgb(13, 224, 161);
         height: 100px;
-        width: 1447px;
+        width: 100%;
         top: 0%;
         background-color: black;
         position: fixed;
