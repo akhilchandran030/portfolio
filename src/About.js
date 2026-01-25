@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './about.css';
 import boy from './images/boy.png';
-import Whatsapp from './images/whatsapp.png';
-import Message from './images/Message.jpg';
 
 function About() {
     const [showImage, setShowImage] = useState(false);
