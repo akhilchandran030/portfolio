@@ -20,15 +20,30 @@ function About() {
                         <img src={boy} alt='Who am i?' />
                     </div>
                     <div className='right_about' id='Aboutpage'>
-                        <p className='paragraph'>Hi, I’m Akhil Chandran, an Associate Software Engineer based in Trivandrum with 1+ year of hands-on experience building full-stack web applications.<br><br></br></br>
+                        <p>
+                            Hi, I’m Akhil Chandran, an Associate Software Engineer based in Trivandrum with
+                            1+ year of hands-on experience building full-stack web applications.
+                        </p>
 
-                            I work primarily on backend and full-stack development, using Java, Spring Boot, React, Node.js, Python, and AWS (serverless) to build scalable, production-ready features. My experience includes designing REST APIs, integrating databases, and developing interactive frontend modules.<br>
+                        <p>
+                            I work primarily on backend and full-stack development, using Java, Spring Boot,
+                            React, Node.js, Python, and AWS (serverless) to build scalable, production-ready
+                            features. My experience includes designing REST APIs, integrating databases, and
+                            developing interactive frontend modules.
+                        </p>
 
-                            I’ve contributed to real-world projects across healthcare and training platforms, taking ownership of both frontend and backend components.<br><br></br></br>
+                        <p>
+                            I’ve contributed to real-world projects across healthcare and training platforms,
+                            taking ownership of both frontend and backend components.
+                        </p>
 
-                            I hold a B.Sc. in Computer Science and am currently pursuing my MCA from IGNOU. I focus on writing clean, maintainable code and continuously improving my system design and backend engineering skills.</p>
-
+                        <p>
+                            I hold a B.Sc. in Computer Science and am currently pursuing my MCA from IGNOU.
+                            I focus on writing clean, maintainable code and continuously improving my system
+                            design and backend engineering skills.
+                        </p>
                     </div>
+
                 </div>
             </div>
         </section>
