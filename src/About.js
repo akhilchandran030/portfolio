@@ -13,7 +13,6 @@ function About() {
     return (
         <section className='about' >
             <div className='about_top' id='about'>
-                <h1 className='empty'>empty</h1>
                 <div className='maindiv_about' >
                     <h1 className='whoami'>WHO AM I ?</h1>
                     <div className='left_boy'>

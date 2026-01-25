@@ -5,6 +5,7 @@ header {
     background-color: black;
     z-index: 1;
 }
+
 .tophead {
     display: flex;
     justify-content: center;
@@ -25,8 +26,17 @@ a {
     color: aliceblue;
     text-decoration: none;
 }
+
 a:hover {
     color: orange;
 }
 
-
+@media(max-width: 1024px) {
+    button {
+        padding: 10px 5px;
+        border-radius: 10px;
+        background-color: black;
+        font-size: 16px;
+        margin-left: 5%;
+    }
+}

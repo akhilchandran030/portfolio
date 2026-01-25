@@ -6,9 +6,6 @@
     color: rgb(254, 252, 252);
 }
 
-.empty {
-    opacity: 0;
-}
 
 .maindiv_about {
     position: relative;
@@ -71,4 +68,11 @@
     background-color: red;
     height: 30px;
     border: 2px solid black;
+}
+
+
+@media(max-width:1024px) {
+    .right_about p{
+        font-size: 14px;
+    }
 }
