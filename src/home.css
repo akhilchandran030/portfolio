@@ -110,8 +110,9 @@ p {
 .cv_button {
     position: absolute;
     top: 93%;
-    left: 0%;
+    left: 50%;
     right: 0%;
+    width: 100px;
     animation: paraslide 2s ease forwards;
 }
 
@@ -220,7 +221,7 @@ p {
     .cv_button {
         position: absolute;
         top: 87%;
-        left: 15%;
+        left: 45%;
         right: 0%;
         animation: paraslide 2s ease forwards;
     }
