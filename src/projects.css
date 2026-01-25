@@ -1,4 +1,3 @@
-
 .projects {
     position: absolute;
     top: 2000px;
@@ -51,4 +50,29 @@
 .project_card li {
     margin-bottom: 5px;
     color: black;
+}
+
+@media(max-width:768px) {
+
+    .projects {
+        position: absolute;
+        top: 2200px;
+        width: 100%;
+        padding: 50px 20px;
+        background-color: #f3f3f3;
+        color: #fff;
+        box-sizing: border-box;
+    }
+}
+
+@media(max-width:426px) {
+    .projects {
+        position: absolute;
+        top: 2800px;
+        width: 100%;
+        padding: 50px 20px;
+        background-color: #f3f3f3;
+        color: #fff;
+        box-sizing: border-box;
+    }
 }

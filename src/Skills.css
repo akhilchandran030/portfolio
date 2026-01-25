@@ -1,9 +1,9 @@
 .skills_main {
-    position: absolute;
-    top: 1160px;
-    width: 99%;
-    height: 90%;
-    /* padding: 4rem 2rem; */
+  position: absolute;
+  top: 1160px;
+  width: 99%;
+  height: 90%;
+  /* padding: 4rem 2rem; */
   background-color: #fff;
 }
 
@@ -44,4 +44,27 @@
   font-size: 0.95rem;
   line-height: 1.5;
   color: #363636;
+}
+
+@media(max-width:768px) {
+  .skills_main {
+    position: absolute;
+    top: 950px;
+    width: 99%;
+    height: 90%;
+    /* padding: 4rem 2rem; */
+    background-color: #fff;
+  }
+
+}
+
+@media(max-width:426px) {
+  .skills_main {
+    position: absolute;
+    top: 850px;
+    width: 99%;
+    height: 90%;
+    /* padding: 4rem 2rem; */
+    background-color: #fff;
+  }
 }

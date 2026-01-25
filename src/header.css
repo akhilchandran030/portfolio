@@ -40,3 +40,31 @@ a:hover {
         margin-left: 5%;
     }
 }
+
+@media(max-width: 768px) {
+    button {
+        padding: 8px 5px;
+        border-radius: 10px;
+        background-color: black;
+        font-size: 10px;
+        margin-left: 5%;
+    }
+}
+
+@media(max-width: 426px) {
+    button {
+        padding: 6px 4px;
+        border-radius: 8px;
+        background-color: black;
+        font-size: 10px;
+        margin-left: 3%;
+    }
+
+    .tophead {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        padding: 5px;
+        margin-left: 30%;
+    }
+}
