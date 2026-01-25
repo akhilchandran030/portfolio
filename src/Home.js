@@ -40,7 +40,7 @@ const Home = () => {
                         <h2>Full Stack Software Engineer</h2>
                         <p>1+ year of experience building production-ready web applications and backend systems across multiple stacks.
 
-                            Java & Spring Boot · React · Node.js · Python · AWS (Serverless)<br />
+                            Java & Spring Boot · React · Node.js · Python · AWS<br />
                         </p>
                     </div>
                     <div className='cv_button'>
