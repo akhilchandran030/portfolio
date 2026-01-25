@@ -20,22 +20,14 @@ function About() {
                         <img src={boy} alt='Who am i?' />
                     </div>
                     <div className='right_about' id='Aboutpage'>
-                        <h1 >Hei all...
-                            <img src={Whatsapp} alt="Whatsapp" className='whatsapp_logo' onClick={toggleImage} />
-                            {showImage && (
-                                <div className='message_div'>
-                                    <span className='close' onClick={toggleImage}>&times;</span>
-                                    <img src={Message} alt='info' />
-                                </div>
-                            )
-                            }
-                        </h1>
-                        <p className='paragraph'>
-  Hi, my name is Akhil Chandran, and I am currently working as an <b>Associate Software Engineer at zDistanceLab</b>, Trivandrum. In my role, I work on various software development projects using <b>Java, Spring Boot, MySQL, and C#</b>, contributing to full-stack applications and interactive modules. I have completed projects such as a <b>Hospital Management System</b> and a <b>Training Institute Website</b>, applying both frontend and backend development skills to deliver effective solutions.<br /><br />
+                        <p className='paragraph'>Hi, I’m Akhil Chandran, an Associate Software Engineer based in Trivandrum with 1+ year of hands-on experience building full-stack web applications.
 
-  I hold a <b>B.Sc. in Computer Science</b> from Malankara Catholic College, Kanyakumari, and I am currently pursuing my <b>MCA from IGNOU</b>. I also completed <b>Java Full Stack Development training at Scope India</b>, working extensively with Java, Spring Boot, MySQL, HTML, CSS, and JavaScript. Additionally, I have earned certifications in <b>Java Full Stack Development with Spring Boot</b>, which have strengthened my technical expertise and problem-solving abilities. With this blend of education and professional experience, I am eager to contribute meaningfully in software development roles and continue growing as a developer.
-</p>
-                            
+                            I work primarily on backend and full-stack development, using Java, Spring Boot, React, Node.js, Python, and AWS (serverless) to build scalable, production-ready features. My experience includes designing REST APIs, integrating databases, and developing interactive frontend modules.
+
+                            I’ve contributed to real-world projects across healthcare and training platforms, taking ownership of both frontend and backend components.
+
+                            I hold a B.Sc. in Computer Science and am currently pursuing my MCA from IGNOU. I focus on writing clean, maintainable code and continuously improving my system design and backend engineering skills.</p>
+
                     </div>
                 </div>
             </div>
