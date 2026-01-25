@@ -1,69 +1,43 @@
 import React from "react";
 import './Skills.css';
-
-
-const skillsData = [
-    {
-        title: "AWS",
-        description:
-            "Worked with AWS serverless architecture using Lambda and related services to build scalable backend functionality.",
-    },
-    {
-        title: "Java & Spring Boot",
-        description:
-            "Developed full-stack applications using Java and Spring Boot, including REST APIs, business logic, and database integration.",
-    },
-    {
-        title: "React",
-        description:
-            "Built responsive user interfaces using React, focusing on component-based architecture and clean state management.",
-    },
-    {
-        title: "Node.js",
-        description:
-            "Created backend services and APIs using Node.js, handling authentication, data processing, and integrations.",
-    },
-    {
-        title: "Python",
-        description:
-            "Used Python for backend scripting and application logic where lightweight and fast solutions were required.",
-    },
-    {
-        title: "MySQL",
-        description:
-            "Designed and managed relational databases, wrote optimized queries, and handled schema design.",
-    },
-    {
-        title: "DynamoDB",
-        description:
-            "Worked with AWS DynamoDB for NoSQL data modeling using partition and sort keys, designed scalable tables, and optimized access patterns for serverless applications.",
-    },
-    {
-        title: "PostgreSQL",
-        description:
-            "Designed and managed relational databases, created normalized schemas, wrote optimized SQL queries, and handled indexing and performance tuning.",
-    },
-    {
-        title: "REST APIs",
-        description:
-            "Designed and developed RESTful APIs with proper HTTP methods, status codes, request/response validation, and authentication for backend services.",
-    }
-];
+import skills from './images/skills.png';
+import html from './images/html.png';
+import css from './images/Css.png';
+import javascript from './images/javascript.png';
+import bootstrap from './images/Bootstrap.png';
+import react from './images/React.png';
+import java from './images/java.png';
+import spring from './images/spring.png';
+import mysql from './images/mySQL.png';
+import php from './images/php.png';
 
 function Skills() {
     return (
-        <div className="skills_main" id="skills">
-            <h2 className="skills_title">Skills</h2>
-
-            <div className="skills_grid">
-                {skillsData.map((skill, index) => (
-                    <div className="skill_card" key={index}>
-                        <h3>{skill.title}</h3>
-                        <p>{skill.description}</p>
+        <>
+            <div className="skills_main" id="skills">
+                <div className="skills_sub" >
+                    <div className="skills_head">
+                        <h1 >SKILLS</h1>
                     </div>
-                ))}
+                    <div className="skill_div2">
+                        <div className="skill_left">
+                            <img src={skills} alt="skills image" />
+                        </div>
+                        <div className="skill_right">
+                            <img src={html} alt="html" className="image" />
+                            <img src={css} alt="css" className="image" />
+                            <img src={javascript} alt="javascript" className="image" />
+                            <img src={bootstrap} alt="bootstrap" className="image" />
+                            <img src={react} alt="react" className="image" />
+                            <img src={java} alt="java" className="image" />
+                            <img src={spring} alt="springboot" className="image" />
+                            <img src={mysql} alt="mysql" className="image" />
+                            <img src={php} alt="php" className="image" />
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    );
+        </>
+    )
 }
 export default Skills
