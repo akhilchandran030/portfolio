@@ -38,7 +38,7 @@ const Home = () => {
                         <h1>Hello</h1>
                         <h1>I'm Akhil Chandran</h1>
                         <h2>Full Stack Software Engineer</h2>
-                        <p>1+ year of experience building production-ready web applications and backend systems across multiple stacks.
+                        <p>2 years of hands-on experience (including 1 year industry experience) building production-ready web applications and backend systems across multiple stacks.
 
                             Java & Spring Boot · React · Node.js · Python · AWS<br />
                         </p>

@@ -22,7 +22,7 @@ function About() {
                     <div className='right_about' id='Aboutpage'>
                         <p>
                             Hi, I’m Akhil Chandran, an Associate Software Engineer based in Trivandrum with
-                            1+ year of hands-on experience building full-stack web applications.
+                            2 years of hands-on experience (including 1 year industry experience) building full-stack web applications.
                         </p>
 
                         <p>
