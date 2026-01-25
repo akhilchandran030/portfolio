@@ -1,71 +1,81 @@
 import React from "react";
 import './projects.css';
-import hospital from './images/hospital.png';
-import travel from './images/travel.jpg';
-import training from './images/training.jpg';
+
+
+const projectsData = [
+    {
+        title: "CRM Project",
+        language: "Node.js, AWS, Serverless",
+        description:
+            "Collaborated on a team to develop a CRM tool for analyzing customer data. Implemented APIs for multiple admin and user logins, managed data addition and editing, and fetched data from DynamoDB to display on the site using AWS Lambda.",
+        achievement: [
+            "Automated data recording and sharing for admins by integrating all processes into a single platform.",
+            "Made it easy to review and evaluate user-submitted data."
+        ]
+    },
+    {
+        title: "Unity Educational Game",
+        language: "C#, Unity 2D",
+        description:
+            "Developed a Unity-based educational game aligned with the curriculum textbooks. Created multiple interactive scenes and implemented game mechanics using C# scripts.",
+        achievement: [
+            "Enhanced learning engagement through interactive gameplay.",
+            "Facilitated easier learning through diverse educational activities."
+        ]
+    },
+    {
+        title: "Android Firewall Application",
+        language: "Android Studio, Kotlin",
+        description:
+            "Developed an Android firewall application to restrict access to unauthorized websites on tablets used by students in an educational program.",
+        achievement: [
+            "Ensured only approved sites and domains are accessible, preventing misuse of tablets.",
+            "Maintained secure and controlled tablet usage for students."
+        ]
+    },
+    {
+        title: "Personal Portfolio Website",
+        language: "React",
+        description:
+            "Built a personal portfolio website to showcase skills, projects, and professional information in an organized and visually appealing way.",
+        achievement: [
+            "Simplified presentation of personal and project details.",
+            "Integrated multiple project showcases for easy browsing and evaluation."
+        ]
+    },
+    {
+        title: "Multi-Tenant Educational Application",
+        language: "Open edX, Python, JavaScript",
+        description:
+            "Developed a multi-tenant educational platform using Open edX, allowing multiple organizations to run their learning programs independently.",
+        achievement: [
+            "Enabled multiple organizations to use the platform according to their specific requirements.",
+            "Provided an efficient way to present learning content and activities through e-learning modules."
+        ]
+    }
+];
 
 function Projects() {
     return (
-        <>
-            <div className="projects" >
-                <h1 className="empty">empty</h1>
-                <div className="projects_sub" id='projects'>
-                    <h1 className="head">Projects</h1>
-                    <div className="first_project">
-                        <h1 className="heading">Hospital Management System</h1>
-                        <div className="pro1">
-                            <div className="pro1_img">
-                                <img src={hospital} alt="hospital image" />
-                            </div>
-                            <div className="pro1_details">
-                                <p>Developed a comprehensive hospital management system to streamline administrative and patient
-                                    management processes. The system includes modules for patient registration, appointment scheduling,
-                                    medical records, billing, and reporting.</p>
-                                <ul>
-                                    <li><b>Technologies/Tools Used :</b> HTML, CSS, Bootstrap, PHP, MySQL.</li>
-                                    <li><b> Achievements/Results : </b>Implemented a user-friendly interface that increased user retention. Collaborated with
-                                        a team of 4 members and completed the project 1 week ahead of schedule.Enhanced system performance
-                                        and reduced load times by optimizing database queries</li>
-                                </ul>
-                            </div>
-                        </div>
+        <div className="projects" id="projects">
+            <h1 className="head">Projects</h1>
+            <div className="projects_grid">
+                {projectsData.map((project, index) => (
+                    <div className="project_card" key={index}>
+                        <h2>{project.title}</h2>
+                        <h3>{project.language}</h3>
+                        <h3>Achievements:</h3>
+                        <ul>
+                            {project.achievement.map((item, i) => (
+                                <li key={i}>{item}</li>
+                            ))}
+                        </ul>
                     </div>
-                    <div className="second_project">
-                        <h1 className="heading">Training Institute Website</h1>
-                        <div className="pro2">
-                            <div className="pro2_img">
-                                <img src={training} alt="Institution image" />
-                            </div>
-                            <div className="pro2_details">
-                                <p>Built a website of Software training institution using Spring Boot.Which includes registration page with
-                                    email verification and otp login , And home, about, contact, dashboard, course ,update profile pages.Used
-                                    MySQL for database management.</p>
-                                <ul>
-                                    <li><b>Technologies/Tools Used : </b>HTML, CSS, Bootstrap,Javascript,Java,Springboot,MySQL.</li>
-                                    <li><b> Achievements/Results : </b> Created a website where students can register and signup for courses</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="third_project">
-                        <h1 className="heading">Travel Agency Webpage</h1>
-                        <div className="pro3">
-                            <div className="pro3_img">
-                                <img src={travel} alt="Travel Agency image" className="travel_img" />
-                            </div>
-                            <div className="pro3_details">
-                                <p>Designed a Travel agency website using Html,Css,Javascript with Home,About,Trips and Contact pages.A user can interact with the webpage to browse certain details about the agency,can check their recent trips,contact nearest office ,etc.</p>
-                                <ul>
-                                    <li><b>Technologies/Tools Used : </b>HTML, CSS,Javascript.</li>
-                                    <li><b> Achievements/Results : </b>Designed a user friendly interface for travel agency webpage.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                ))}
             </div>
-        </>
-    )
+        </div>
+    );
 }
+
 
 export default Projects;

@@ -1,6 +1,6 @@
 .maindiv {
     position: absolute;
-    top: 25%;
+    top: 10%;
     width: 100%;
 }
 
@@ -112,7 +112,7 @@ p {
 
 .cv_button {
     position: absolute;
-    top: 85%;
+    top: 93%;
     left: 0%;
     right: 0%;
     animation: paraslide 2s ease forwards;
@@ -123,6 +123,7 @@ p {
     color: white;
     background-color: crimson;
     text-decoration: none;
+    margin-left: 50%;
 }
 
 

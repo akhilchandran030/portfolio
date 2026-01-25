@@ -1,110 +1,54 @@
+
 .projects {
     position: absolute;
-    top: 2300px;
+    top: 2200px;
     width: 100%;
-
-}
-
-.first_project,
-.second_project {
-    border-top: 3px solid rgb(13, 13, 13);
-    border-left: 3px solid rgb(14, 14, 15);
-    border-right: 3px solid rgb(6, 6, 7);
-}
-
-.third_project {
-    border: 3px solid rgb(13, 13, 13);
-}
-
-.first_project :hover {
-    color: aqua;
-    text-shadow: 1px 1px black;
-
-}
-
-.second_project :hover {
-    color: aqua;
-    text-shadow: 1px 1px black;
-}
-
-.third_project :hover {
-    color: aqua;
-    text-shadow: 1px 1px black;
-}
-
-.travel_img {
-    border-radius: 5% 30% 30% 5%;
+    padding: 50px 20px;
+    background-color: #f3f3f3;
+    color: #fff;
+    box-sizing: border-box;
 }
 
 .head {
-    position: relative;
-    left: 40%;
-    width: 40%;
-    font-size: 70px;
+    text-align: center;
+    font-size: 50px;
     font-family: cursive;
-    color: lightseagreen;
-    text-shadow: 6px 4px 2px black;
+    color: #000000;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 1px rgb(142, 142, 142);
 }
 
-.heading {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 45px;
-    color: rgb(177, 39, 39);
-    text-shadow: 2px 2px 1px black;
-    border: solid white;
+.projects_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.projects_sub {
-    display: grid;
-    grid-template-rows: auto auto auto;
+.project_card {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.empty {
-    color: white;
+.project_card h2 {
+    color: #6f0000;
+    margin-bottom: 10px;
 }
 
-.pro1,
-.pro2,
-.pro3 {
-    position: relative;
-    display: grid;
-    gap: 3px;
-    grid-template-columns: auto auto;
+.project_card h3 {
+    margin: 10px 0 5px 0;
+    color: #007795;
 }
 
-.pro1_img,
-.pro2_img,
-.pro3_img {
-    position: relative;
-    width: 600px;
+.project_card ul {
+    margin-left: 20px;
+    list-style-type: disc;
 }
 
-.pro1_details,
-.pro2_details,
-.pro3_details {
-    position: relative;
-}
-
-@media(max-width:1440px) {
-    .projects {
-        position: absolute;
-        top: 2300px;
-        width: 1440px;
-    }
-}
-
-@media(max-width:1024px) {
-    .projects {
-        position: absolute;
-        top: 2300px;
-        width: 1440px;
-    }
-}
-
-@media(max-width:427px) {
-    .projects {
-        position: absolute;
-        top: 5800px;
-        width: 1440px;
-    }
+.project_card li {
+    margin-bottom: 5px;
+    color: black;
 }

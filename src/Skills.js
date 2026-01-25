@@ -53,7 +53,7 @@ const skillsData = [
 function Skills() {
     return (
         <div className="skills_main" id="skills">
-            <h2 className="skills_title">Skills</h2>
+            <h2 className="skills_title">SKILLS</h2>
 
             <div className="skills_grid">
                 {skillsData.map((skill, index) => (

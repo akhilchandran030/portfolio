@@ -10,6 +10,7 @@
 .skills_title {
   text-align: center;
   font-size: 2rem;
+  font-family: cursive;
   margin-bottom: 3rem;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .skill_card {
-  border: 1px solid #a4a4a4;
+  border: 1px solid #9b6464;
   border-radius: 10px;
   padding: 1.5rem;
   background-color: #fafafa;
@@ -42,5 +43,5 @@
 .skill_card p {
   font-size: 0.95rem;
   line-height: 1.5;
-  color: #555;
+  color: #363636;
 }

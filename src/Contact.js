@@ -1,8 +1,5 @@
 import React from "react";
 import './Contact.css';
-import Linkedin from './images/Linkedin.png';
-import Instagram from './images/Instagram.png';
-import Whatsapp from './images/whatsapp.png';
 
 const Contact = () => {
     const linkedIn = 'https://www.linkedin.com/in/akhilchandrancs';

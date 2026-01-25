@@ -15,34 +15,8 @@
     width: 100%;
     top: 0px;
     margin: 3rem 0;
-    border: 5px solid rgb(0, 97, 224);
-    animation: borderColorChange 3s infinite;
-    border-radius: 20px;
     color: white;
-    box-shadow: 2px 2px 8px rgb(69, 21, 228);
-}
-
-@keyframes borderColorChange {
-    0% {
-        border-color: rgb(102, 102, 102);
-        box-shadow: 2px 2px 8px rgb(0, 0, 0);
-    }
-
-    40% {
-        border-color: rgb(0, 0, 0);
-        box-shadow: 2px 2px 8px rgb(130, 130, 130);
-    }
-
-    80% {
-        border-color: rgb(175, 175, 175);
-        box-shadow: 2px 2px 8px rgb(5, 5, 5);
-    }
-
-    100% {
-        border-color: rgb(0, 0, 0);
-        box-shadow: 2px 2px 8px rgb(129, 129, 129);
-    }
-
+    background-color: rgb(234, 234, 234);
 }
 
 .left_boy {
@@ -67,7 +41,7 @@
     position: absolute;
     width: 40%;
     left: 50%;
-    top: 10%;
+    top: 20%;
     height: auto;
     color: rgb(8, 8, 8);
     overflow: hidden;
