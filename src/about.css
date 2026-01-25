@@ -10,6 +10,7 @@
 .maindiv_about {
     position: relative;
     width: 100%;
+    height: auto;
     top: 0px;
     margin: 3rem 0;
     color: white;
@@ -20,7 +21,7 @@
     position: relative;
     width: 40%;
     top: 20%;
-    height: 70%;
+    height: 350px;
     left: 5%;
     opacity: 100%;
 }

@@ -64,3 +64,14 @@
         flex-direction: column;
     }
 }
+
+@media(max-width:376px) {
+    .contact {
+        position: absolute;
+        top: 4650px;
+        width: 99.8%;
+        height: 150px;
+        background-color: rgb(7, 7, 7);
+        color: rgb(250, 248, 248);
+    }
+}
